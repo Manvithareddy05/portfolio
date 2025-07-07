@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styleSheet1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero-header" id="home">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-m"></i>
+                    <div class="logo-text">Muthyalampalli Manvitha</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/main_photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Data Science Enthusiast</span></h5>
+                    <h1>Manvitha Reddy</h1>
+                    <p>
+                        I'm Manvitha Muthyalampalli, a passionate and curious Data Science undergraduate student at
+                        Vardhaman College of Engineering. I have always been fascinated by how data drives decisions
+                        and how machine learning can be used to solve real-world problems.
+
+                        My love for mathematics and logic led me to this field, and I continue to thrive in it.
+                        I'm skilled in Python, Machine Learning, Data Analysis, and Visualization using libraries such
+                        as Pandas, NumPy, Matplotlib, and Seaborn. I'm also comfortable with web development
+                        technologies like HTML, CSS, and JavaScript.<br><br>
+
+                        Beyond academics, I love exploring nature, traveling to green places, and learning new technologies.
+                        I believe in constant growth and take every opportunity to expand my knowledge — through internships,
+                        projects, online courses, or hackathons.
+
+                        My goal is to become a well-rounded data professional who not only solves problems but also
+                        creates meaningful impact through data-driven decisions.
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="resume.pdf" class="btn active">Download Resume</a>
+                        <a href="#contact" class="btn">Contact Me</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/manvithamuthyalampalli/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/manvitha_reddy05/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Manvithareddy05" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <!-- Skills Section -->
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+
+        <div class="skill-category">
+            <h3>Languages</h3>
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>Basic Java</li>
+                <li>HTML</li>
+                <li>SQL</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <ul>
+                <li>Scikit-learn</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Developer Tools</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>VS Code</li>
+                <li>Jupyter Notebook</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-row">
+            <div class="project-img">
+                <img src="img/drowsiness.png" alt="Driver Drowsiness Detection" />
+            </div>
+            <div class="project-info">
+                <h3>Driver Drowsiness Detection System</h3>
+                <p>Used OpenCV and ML to detect driver fatigue from live camera feed and prompt break alerts.</p>
+                <a href="https://github.com/Manvithareddy05/drowsiness-detection" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View GitHub Code
+                </a>
+            </div>
+        </div>
+
+        <div class="project-row">
+            <div class="project-img">
+                <img src="img/roadmaps.png" alt="Career Roadmap" />
+            </div>
+            <div class="project-info">
+                <h3>Career Roadmap</h3>
+                <p>A visualization of my academic and professional growth plans in the field of Data Science.</p>
+                <a href="https://github.com/Manvithareddy05/career_roadmap" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View GitHub Code
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch.</h2>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <p>
+                        I'm always excited to connect — whether it’s to collaborate on a project, discuss ideas, or just chat tech. Feel free to reach out if you think we can build something awesome together.
+                    </p>
+                    <a href="mailto:your.email@example.com" class="btn-primary">MESSAGE ME</a>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-block">
+                        <h3>Follow Me</h3>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/manvithamuthyalampalli/" target="blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/Manvithareddy05" target="blank">GitHub</a></li>
+                            <li><a href="https://www.instagram.com/manvitha_reddy05/" target="blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-block">
+                        <h3>Contact Me</h3>
+                        <p>manvithareddymuthyalampalli@gmail.com</p>
+                        <p>+91 9182013654</p>
+                    </div>
+                    <a href="resume.pdf" class="btn-outline" target="_blank">GET MY Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Manvitha Muthyalampalli</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        // Toggle navigation
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        // Typed text animation
+        var typed = new Typed(".input", {
+            strings: ["Data Science Enthusiast", "AI/ML Developer"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>

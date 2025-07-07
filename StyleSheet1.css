@@ -1,0 +1,336 @@
+﻿/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Smooth scrolling already handled in <style> in HTML */
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #222;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+    .logo i {
+        margin-right: 10px;
+        color: #00bcd4;
+    }
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+    .navlinks li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .navlinks li a:hover {
+            color: #00bcd4;
+        }
+
+/* Toggle button (mobile) */
+.togglebtn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+    .togglebtn span {
+        height: 3px;
+        width: 25px;
+        background: #fff;
+        margin: 4px 0;
+        border-radius: 2px;
+    }
+
+/* Hero Section */
+.hero-header {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    padding: 60px 20px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-pic img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+    .hero-text h5 {
+        font-size: 20px;
+        color: #777;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+        color: #222;
+        margin: 10px 0;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        color: #555;
+        margin-top: 10px;
+    }
+
+.btn-group {
+    margin: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0097a7;
+    }
+
+.social a {
+    margin-right: 10px;
+    color: #555;
+    font-size: 20px;
+}
+
+    .social a:hover {
+        color: #00bcd4;
+    }
+
+/* Sections (About, Skills, etc.) */
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+    section h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+/* Skills List */
+.skills ul,
+.skill-category ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.skills li,
+.skill-category li {
+    background-color: #e0f7fa;
+    padding: 8px 12px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+/* Projects */
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.project-img {
+    flex: 1;
+    min-width: 250px;
+}
+
+    .project-img img {
+        width: 100%;
+        border-radius: 12px;
+        max-width: 400px;
+    }
+
+.project-info {
+    flex: 2;
+    min-width: 250px;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #24292e;
+    font-weight: bold;
+}
+
+    .github-link i {
+        margin-right: 8px;
+        color: #000;
+    }
+
+    .github-link:hover {
+        color: #0366d6;
+    }
+
+
+/* Contact */
+.contact-section {
+    background: #1f1f1f;
+    color: #ddd;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #00bcd4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact-left,
+.contact-right {
+    flex: 1;
+    min-width: 280px;
+}
+
+    .contact-left p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #aaa;
+        margin-bottom: 30px;
+    }
+
+.btn-primary {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-block h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.contact-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .contact-block ul li {
+        margin-bottom: 8px;
+    }
+
+        .contact-block ul li a,
+        .contact-block p {
+            color: #888;
+            text-decoration: none;
+        }
+
+            .contact-block ul li a:hover {
+                color: #fff;
+            }
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navlinks {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+    }
+
+        .navlinks.open {
+            display: flex;
+        }
+
+    .togglebtn {
+        display: flex;
+    }
+}
