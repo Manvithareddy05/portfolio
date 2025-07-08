@@ -215,6 +215,29 @@ section {
     .github-link:hover {
         color: #0366d6;
     }
+.internships, .certifications {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+    .internships h2
+    .certifications h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .certifications ul {
+        list-style: disc;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 40px;
+    }
+
+    .certifications li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
 
 
 /* Contact */
