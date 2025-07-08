@@ -70,7 +70,7 @@ header {
         border-radius: 2px;
     }
 
-/* Hero Section ......*/
+/* Hero Section */
 .hero-header {
     background: linear-gradient(to right, #e0f7fa, #ffffff);
     padding: 60px 20px;
@@ -215,26 +215,38 @@ section {
     .github-link:hover {
         color: #0366d6;
     }
-.internships, .certifications {
+
+.experience-section {
     padding: 80px 20px;
     background-color: #f9f9f9;
 }
 
-    .internships h2
-    .certifications h2 {
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.experience-block {
+    flex: 1;
+    min-width: 300px;
+}
+
+    .experience-block h2 {
         font-size: 28px;
         margin-bottom: 20px;
         text-align: center;
     }
 
-    .certifications ul {
-        list-style: disc;
-        max-width: 800px;
-        margin: 0 auto;
+    .experience-block ul {
+        list-style-type: disc;
         padding-left: 40px;
     }
 
-    .certifications li {
+    .experience-block li {
         margin-bottom: 10px;
         line-height: 1.6;
     }

@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleSheet1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 
     <style>
         html {
@@ -21,6 +22,7 @@
             text-align: justify;
         }
     </style>
+
 </head>
 
 <body>
@@ -169,22 +171,32 @@
             </div>
         </div>
     </section>
-    <section class="internships" id="internships">
-        <h2>Internships</h2>
-        <div>
-            <h3>Rejolt EdTech</h3>
-            <h3>NIELIT intern</h3>
+
+    <!-- Combined Section for Internships & Certifications -->
+    <section class="experience-section">
+        <div class="experience-container">
+            <!-- Internships -->
+            <div class="experience-block">
+                <h2>Internships</h2>
+                <ul>
+                    <li><strong>Rejolt EdTech</strong></li>
+                    <li><strong>NIELIT intern</strong></li>
+                </ul>
+            </div>
+
+            <!-- Certifications -->
+            <div class="experience-block">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>NPTEL – Data Analytics with Python</li>
+                    <li>HackerRank – SQL Intermediate</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Certifications & Achievements Section -->
-    <section class="certifications" id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>NPTEL-Data Analytics with Python</li>
-            <li>HackerRank-s=SQL intermediate </li>
-        </ul>
-    </section>
+
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
@@ -241,6 +253,6 @@
             loop: true
         });
     </script>
-
+    <!-- This is a comment -->
 </body>
 </html>
